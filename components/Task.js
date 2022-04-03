@@ -1,6 +1,12 @@
+/*AUTHOR: YETKİN ASLAN
+  DATE:   03.04.2022
+*/
+//Importing Libraries_________________________________y
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+//____________________________________________________y
 
+//Create Components___________________________________y
 const Task = (props) => {
 
   return (
@@ -44,9 +50,12 @@ const styles = StyleSheet.create({
     width: 12,//Boyut
     height: 12,//Boyut
     borderColor: 'blue',//Sınır Rengi
-    borderWidth: 1,
-    borderRadius: 60,
+    borderWidth: 1,//Kenar Çizgi Kalınlığı
+    borderRadius: 60,//Kenarları Yumuşatma
   },
 });
+//____________________________________________________y
 
+//Get Others to Use This Header_______________________y
 export default Task;
+//____________________________________________________y
